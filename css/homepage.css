@@ -1,3 +1,4 @@
+/* キキララ */
 body{
     border-top: solid 10px #374B4A;
 }
@@ -5,3 +6,19 @@ body{
 img{
     margin: 30px;
 }
+/* キキララ */
+/* Michael */
+#title {
+    text-align: center;
+}
+/* Michael */
+/* けだ */
+#range {
+    text-align: center;
+}
+
+.title {
+    display: inline-block;
+    margin: 10px 150px 100px 150px;
+}
+/* けだ */
