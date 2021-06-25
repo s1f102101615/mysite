@@ -1,10 +1,10 @@
 /* キキララ */
-body{
-    border-top: solid 10px #374B4A;
+#body{
+    border-top: solid 20px #374B4A;
 }
 
-/*
-img{
+#img1{
+    text-align: center;
     margin: 30px;
 }
 /* キキララ */
