@@ -3,6 +3,7 @@ body{
     border-top: solid 10px #374B4A;
 }
 
+/*
 img{
     margin: 30px;
 }
@@ -19,6 +20,45 @@ img{
 
 .title {
     display: inline-block;
-    margin: 10px 150px 100px 150px;
+    margin: 10px 250px 10px 250px;
+}
+.one {
+    display: inline-block;
+}
+.banner1 {
+    margin: 0px 115px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.seccond {
+    display: inline-block;
+}
+.banner2 {
+    margin: 25px 115px 0px 115px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.third {
+    display: inline-block;
+}
+.banner3 {
+    margin: 25px 115px 0px 115px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.banner1:hover{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
+}
+.banner2:hover{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
+}
+.banner3:hover{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
 }
 /* けだ */
