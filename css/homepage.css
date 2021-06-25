@@ -1,16 +1,18 @@
 /* キキララ */
-#body{
-    border-top: solid 20px #374B4A;
+body{
+    border-top: solid 10px #374B4A;
 }
 
-#img1{
-    text-align: center;
+/*
+img{
     margin: 30px;
 }
 /* キキララ */
 /* Michael */
-#title {
+#title1 {
     text-align: center;
+    font-size: 75px;
+    font-weight: bold;
 }
 /* Michael */
 /* けだ */
