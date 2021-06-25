@@ -19,8 +19,20 @@
 /* Michael */
 #title1 {
     text-align: center;
+    display: flex;
     font-size: 75px;
+    background-size: 500px 360px;
     font-weight: bold;
+    height: 360px;
+}
+
+#title1 p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
 }
 /* Michael */
 /* けだ */
