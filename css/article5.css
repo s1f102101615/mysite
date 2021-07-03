@@ -1,0 +1,78 @@
+/* 背景 */
+#back {
+    background-image: url(../pic/back.png);
+    background-size: contain;
+    background-repeat:  no-repeat;  
+    width: 100%;
+    height: 705px;
+    background-position:center center;  
+}
+/* マウスポインター */
+*{
+    cursor: url(../pic/point.png),default;
+}
+/* フォント */
+@font-face {
+    font-family: "JF-Dot-Shinonome14";
+    /*フォントファイルへのパス（複数指定の場合、上から順に読み込まれる）*/
+    src: url("../font/JF-Dot-Shinonome14.ttf") format("truetype") ;
+}
+p {
+    color: white;
+    font-family: 'JF-Dot-Shinonome14';
+}
+/* 次への作成 */
+#next {
+    width:190px;
+    height:65px;
+    border:3px orange solid;
+}
+#next2 {
+    font-family: 'JF-Dot-Shinonome14';
+    font-weight: 900;
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    color:orange;font-size:50px;text-align:center;
+}
+#next:hover {
+    border :3px yellow solid;
+}
+#next:hover #next2{
+    color:yellow;
+}
+/* 文字が端から */
+.img-wrap {
+    overflow: hidden;
+    position: relative;
+  }
+  
+.img-wrap:before {
+    animation: img-wrap 2s cubic-bezier(.4, 0, .2, 1) forwards;
+    background: black;
+    bottom: 0;
+    content: '';
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+  }
+  
+@keyframes img-wrap {
+    100% {
+      transform: translateX(100%);
+    }
+    }
+
+#imv {
+    margin:0px;
+}
+/*  */
+
+
+
+
+
+
