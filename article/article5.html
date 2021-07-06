@@ -3,9 +3,10 @@
 <html lang="ja">
 
 <head>
-    <title>好きなゲーム</title>
+    <title>Undertale</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="..\css\article5.css">
+    <script type="text/javascript" src="..\js\jquery.js"></script>
 </head>
 <style>
     body {
@@ -15,19 +16,65 @@
 </style>    
 <body>
     <div id="back" style="position: relative;">
+        <!-- メッセージ１ -->
+        <div id="message1" style="display:block">
         <div class="img-wrap" style="position: absolute; top: 0px; left: 370px;">
             <p style="margin-bottom:5px;font-size:50px;">私の好きなゲームは</p>
-            <p style="color:red;font-size:80px;margin-top:0px"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Undertale</strong></color></p>
+            <p style="color:red;font-size:80px;margin-top:0px"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Undertale</strong></p>
         </div>
         <div class="img-wrap" style="position: absolute; top: 405px; left: 375px;">
-            <p id="imv" style="margin-bottom:5px;font-size:40px;">概要:モンスターの物となった地底世界<br>の町や洞窟を探索するRPG、地上世界へ<br>帰還することを目指すゲームです。</p>
+            <p class="imv" style="margin-bottom:5px;font-size:40px;">概要:モンスターの物となった地底世界<br>の町や洞窟を探索するRPG、地上世界へ<br>帰還することを目指すゲームです。</p>
+        </div>
+        </div>
+        <!-- メッセージ２ -->
+        <div id="message2" style="display:none">
+            <div class="img-wrap" style="position: absolute; top: 10px; left: 600px;">
+                <p style="margin-top:0px;font-size:80px;">戦闘</p>
+                <p style="color:red;font-size:80px;margin-top:0px">&nbsp;&nbsp;<strong>戦う</strong>/<strong>行動</strong><br><strong>アイテム</strong>/<strong>見逃す</strong></p>
+            </div>
+            <div class="img-wrap" style="position: absolute; top: 405px; left: 375px;">
+                <p class="imv" style="margin-bottom:5px;font-size:40px;">概要:モンスターの物とた地底世界<br>の町や洞窟を探索するRPG、地上世界へ<br>帰還することを目指すゲームです。</p>
+            </div>
+        </div>
+        <!-- メッセージ３ -->
+        <div id="message3" style="display:none">
+            <div class="img-wrap" style="position: absolute; top: 0px; left: 370px;">
+                <p style="margin-bottom:5px;font-size:50px;">私の好きゲームは</p>
+                <p style="color:red;font-size:80px;margin-top:0px"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Undertale</strong></p>
+            </div>
+            <div class="img-wrap" style="position: absolute; top: 405px; left: 375px;">
+                <p class="imv" style="margin-bottom:5px;font-size:40px;">概要:モとなった地底世界<br>の町や洞窟を探索するRPG、地上世界へ<br>帰還することを目指すゲームです。</p>
+            </div>
         </div>
         <!-- 次からの処理urlを入力 -->
-        <a href="">
         <div style="position: absolute; top: 630px; left:770px" id="next">
             <span id="next2">→次へ</span>
         </div>
+        <a href="..\index.html">
+            <div style="position: absolute; top: 630px; left:535px" id="next">
+                <span id="next2">←戻る</span>
+            </div>
         </a>
+
+        <script type="text/javascript">
+            $(function(){
+            $("#next").click(function(){
+            for( i=1; i<4; i++ ){
+            if( i == 3 ){
+            j = 1;
+            }else{
+            j = i + 1;
+            }
+            if( $( "#message" + i ).css( "display" ) != "none" ){
+            $( "#message" + i ).hide();
+            $( "#message" + j ).show();
+            break;
+            }
+            }
+            });
+            });
+
+        </script>
     </div>
 
 </body>
