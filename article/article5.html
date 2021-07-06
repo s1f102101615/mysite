@@ -3,9 +3,10 @@
 <html lang="ja">
 
 <head>
-    <title>好きなゲーム</title>
+    <title>Undertale</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="..\css\article5.css">
+    <script type="text/javascript" src="..\js\jquery.js"></script>
 </head>
 <style>
     body {
@@ -15,19 +16,71 @@
 </style>    
 <body>
     <div id="back" style="position: relative;">
-        <div class="img-wrap" style="position: absolute; top: 0px; left: 370px;">
-            <p style="margin-bottom:5px;font-size:50px;">私の好きなゲームは</p>
-            <p style="color:red;font-size:80px;margin-top:0px"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Undertale</strong></color></p>
+        <!-- メッセージ１ -->
+        <div id="message1" style="display:block">
+        <div class="img-wrap" style="position: absolute; top: 10px; left: 370px;">
+            <p style="margin-bottom:15px;font-size:50px;">私の好きなゲームは</p>
+            <p style="color:red;font-size:90px;margin-top:0px"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Undertale</strong></p>
         </div>
         <div class="img-wrap" style="position: absolute; top: 405px; left: 375px;">
-            <p id="imv" style="margin-bottom:5px;font-size:40px;">概要:モンスターの物となった地底世界<br>の町や洞窟を探索するRPG、地上世界へ<br>帰還することを目指すゲームです。</p>
+            <p class="imv" style="margin-bottom:5px;font-size:40px;">概要:モンスターの物となった地底世界<br>の町や洞窟を探索するRPG、地上世界へ<br>帰還することを目指すゲームです。</p>
+        </div>
+        </div>
+        <!-- メッセージ２ -->
+        <div id="message2" style="display:none">
+            <div class="img-wrap" style="position: absolute; top: 20px; left: 670px;">
+                <p style="margin-top:0px;margin-bottom: 0px;font-size:90px;">戦闘</p>
+            </div>
+            <div class="img-wrap" style="position: absolute; top: 180px; left: 290px;">
+                <p style="font-size:80px;margin-top:0px">&nbsp;&nbsp;&nbsp;&nbsp;<strong><font color="red">戦う</font></strong>/<strong><font color="yellow">行動</font></strong>/<strong><font color="blue">見逃す</font></strong></p>
+            </div>
+            <div class="img-wrap" style="position: absolute; top: 405px; left: 375px;">
+                <p class="imv" style="margin-bottom:5px;font-size:40px;">自分で考えて行動することが出来ます。<br>相手を慰めたり見逃してあげるなど<br>自由自在です。<font color="red"><font size="5">*行動によって未来が変化する</font></font></p>
+            </div>
+        </div>
+        <!-- メッセージ３ -->
+        <div id="message3" style="display:none">
+            <div class="img-wrap" style="position: absolute; top: 20px; left: 665px;">
+                <p style="margin-top:0px;margin-bottom: 0px;font-size:90px;">物語</p>
+            </div>
+            <div class="img-wrap" style="position: absolute; top: 160px; left: 380px;">
+                <p style="font-size:55px;margin-top:0px"><font color="yellow">多彩な分岐による<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;エンディング</font></p>
+            </div>
+            <div class="img-wrap" style="position: absolute; top: 405px; left: 375px;">
+                <p class="imv" style="margin-bottom:5px;font-size:40px;">行動一つでキャラの言動が変わり、<br>リアクションが豊富、様々な終わり方が<br>用意されており飽きさせません。<br><font size="4"><font color="yellow">&nbsp;&nbsp;&nbsp;&nbsp;.....みんなも買おうね！！！......</font></font></p>
+            </div>
         </div>
         <!-- 次からの処理urlを入力 -->
-        <a href="">
         <div style="position: absolute; top: 630px; left:770px" id="next">
             <span id="next2">→次へ</span>
         </div>
+        <a href="..\index.html">
+            <div style="position: absolute; top: 630px; left:535px" id="next">
+                <span id="next2">←戻る</span>
+            </div>
         </a>
+        <!--
+        <span class="word" style='position: absolute; top:592px;left:390px;color:white;font-size:20px'>あなた</span>
+        -->
+        <script type="text/javascript">
+            $(function(){
+            $("#next").click(function(){
+            for( i=1; i<4; i++ ){
+            if( i == 3 ){
+            j = 1;
+            }else{
+            j = i + 1;
+            }
+            if( $( "#message" + i ).css( "display" ) != "none" ){
+            $( "#message" + i ).hide();
+            $( "#message" + j ).show();
+            break;
+            }
+            }
+            });
+            });
+
+        </script>
     </div>
 
 </body>
