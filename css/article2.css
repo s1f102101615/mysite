@@ -80,11 +80,23 @@ a.btn--yellow {
   font-family: 'RocknRoll One', sans-serif;
 }
 
-.wordsize{
+#h3{
+  font-size: 50px;
+  font-family: "Nico Moji";
+  text-align: center;
+}
+
+.word{
   font-size: 20px;
+  text-align: center;
 }
 
 #img1{
+  height: 360px;
+  width: 640px;
+}
+
+#img2{
   height: 360px;
   width: 640px;
 }
