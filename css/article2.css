@@ -70,8 +70,9 @@ a.btn--yellow {
 }
 
 #h1{
-  font-size: 40px;
+  font-size: 60px;
   font-family: 'Merriweather', serif;
+  text-align: center;
   font-weight: bold;
 }
 
@@ -89,6 +90,14 @@ a.btn--yellow {
 .word{
   font-size: 20px;
   text-align: center;
+}
+
+.word1{
+  text-align: right;
+}
+
+.word2{
+  text-align: left;
 }
 
 #img1{
