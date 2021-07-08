@@ -38,6 +38,26 @@
     top: -25px;
 }
 
+.story-first{
+    margin-bottom: 60px
+}
+
+.story-second{
+    margin-bottom: 60px 
+}
+
+.story-third{
+    margin-bottom: 60px
+}
+
+.story-fourth{
+    margin-bottom: 60px
+}
+
+.story-five{
+    margin-bottom: 30px
+}
+
 body{
     margin: 0px;
     border-top: solid 50px #374B4A;
