@@ -2,6 +2,7 @@
 .all {
     padding: 20px 0px 20px 0px;
     text-align: center;
+    background-color: black;
 }
 
 .subtitle {
@@ -10,17 +11,8 @@
     background-color: #1b1b1b;
     padding: 20px 0px 20px 0px;
     color: #153cfc;
-}
-
-.line1 {
-    font-size: 25px;
-    font-weight: bold;
-    color: #1616d4;
-}
-
-.line2{    
-    font-size: 15px;
-    font-weight: bold;
+    position: relative;
+    top: -25px;
 }
 
 .line3  {
@@ -35,12 +27,15 @@
     color:rgb(69, 69, 248)
 }
 
-.story-second {
-    background-color: black;
+
+.title_pic{
+    position: relative;
+    top: -21px;
 }
 
-.story-fourth {
-    background-color: black;
+.first_pic{
+    position: relative;
+    top: -25px;
 }
 
 body{
