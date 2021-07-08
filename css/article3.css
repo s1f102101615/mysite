@@ -18,8 +18,15 @@
     color: #1616d4;
 }
 
+.line2{    
+    font-size: 15px;
+    font-weight: bold;
+}
+
 .line3  {
     color: white;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .line4{
@@ -57,7 +64,7 @@ html {
 .btn,
 a.btn,
 button.btn {
-  font-size: 1.6rem;
+  font-size: 0.001rem;
   font-weight: 700;
   line-height: 1.5;
   position: relative;

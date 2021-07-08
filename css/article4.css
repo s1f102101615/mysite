@@ -1,0 +1,147 @@
+.all{
+    text-align: center;
+    background-color: black;
+}
+
+.title{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: serif;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    color: rgb(252, 97, 252);
+}
+
+.subtitle{
+    font-size: 45px;
+    font-family: cursive;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    color: rgb(89, 253, 89);
+}
+
+.kind{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(252, 97, 252);
+
+}
+
+.small_kind{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(252, 97, 252);
+}
+
+.contents{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.comics{
+    padding-bottom: 60px;
+}
+
+.anime{
+    padding-bottom: 60px;
+}
+
+.air_magokoro{
+    padding-bottom: 60px;
+}
+
+.EVANGELION_Rebuild1{
+    padding-bottom: 50px;
+}
+
+.Rebuild_first{
+    padding-bottom: 50px;
+}
+
+.Rebuild_second{
+    padding-bottom: 50px;
+}
+
+.Rebuild_third{
+    padding-bottom: 50px;
+}
+
+.Rebuild_fourth{
+    padding-bottom: 50px;
+}
+
+body{
+    margin: 0px;
+    border-top: solid 50px #374B4A;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+a.btn--green {
+  color: rgb(255, 255, 255);
+  background-color: blue;
+  border-bottom: 5px solid blue;
+}
+
+a.btn--green:hover {
+  margin-top: 3px;
+  color: rgb(255, 255, 255);
+  background: rgb(253, 48, 253);
+  border-bottom: 2px solid rgb(253, 48, 253);
+}
+a.btn--green {
+    color: rgb(255, 255, 255);
+    background-color: rgb(253, 48, 253);
+    border-bottom: 5px solid rgb(253, 48, 253);
+  }
+  
+  a.btn--green:hover {
+    margin-top: 3px;
+    color: rgb(253, 48, 253);
+    border-bottom: 2px solid rgb(253, 48, 253);
+  }
+
+#button {
+    text-align: center;
+}
+
+#body{
+    background-image: url(.\pic\white_00048.jpg);
+}
