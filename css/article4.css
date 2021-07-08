@@ -4,7 +4,7 @@
 }
 
 .title{
-    font-size: 70px;
+    font-size: 90px;
     font-weight: bold;
     font-family: serif;
     padding-top: 80px;
@@ -13,63 +13,81 @@
 }
 
 .subtitle{
-    font-size: 45px;
+    font-size: 60px;
     font-family: cursive;
     font-weight: bold;
     padding-top: 40px;
     padding-bottom: 30px;
     color: rgb(89, 253, 89);
+    position: relative;
+    top: 30px;
 }
 
 .kind{
-    font-size: 30px;
+    font-size: 45px;
     font-weight: bold;
     color: rgb(252, 97, 252);
 
 }
 
 .small_kind{
-    font-size: 25px;
+    font-size: 40px;
     font-weight: bold;
     color: rgb(252, 97, 252);
 }
 
 .contents{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     color: white;
 }
 
 .comics{
-    padding-bottom: 60px;
+    padding-bottom: 20px;
+    position: relative;
+    margin-top: 40px;
 }
 
 .anime{
-    padding-bottom: 60px;
+    padding-bottom: 90px;
+    position: relative;
+    top: 100px;
 }
 
 .air_magokoro{
-    padding-bottom: 60px;
+    padding-bottom: 90px;
+    position: relative;
+    top: 100px;
 }
 
 .EVANGELION_Rebuild1{
-    padding-bottom: 50px;
+    padding-bottom: 70px;
+    position: relative;
+    top: 100px;
 }
 
 .Rebuild_first{
-    padding-bottom: 50px;
+    padding-bottom: 70px;
+    position: relative;
+    top: 80px;
 }
 
 .Rebuild_second{
-    padding-bottom: 50px;
+    padding-bottom: 70px;
+    position: relative;
+    top: 80px;
 }
 
 .Rebuild_third{
-    padding-bottom: 50px;
+    padding-bottom: 70px;
+    position: relative;
+    top: 80px;
 }
 
 .Rebuild_fourth{
-    padding-bottom: 50px;
+    padding-bottom: 70px;
+    position: relative;
+    top: 80px;
 }
 
 
@@ -141,6 +159,10 @@ a.btn--green {
 
 #button {
     text-align: center;
+    position: relative;
+    top: 49px;
+    background-color: black;
+    margin-bottom: 20px;
 }
 
 #body{
