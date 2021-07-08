@@ -94,3 +94,30 @@ a.btn--yellow {
   font-size: 20px;
   text-align: center;
 }
+
+span.alert{
+  font-size: 20px;
+  text-align: left;
+}
+
+#color1{
+  color: #1ce286;
+  font-weight: bold;
+}
+
+#color2{
+  color: #d36a2e;
+  font-weight: bold;
+}
+
+#img2{
+  height: 270px;
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+}
+
+#img3{
+  height: 360px;
+  width: 640px;
+}
