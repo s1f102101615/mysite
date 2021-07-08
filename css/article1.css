@@ -85,9 +85,20 @@ a.btn--yellow {
   width: 640px;
 }
 
+#img2{
+  width:300px;
+  margin-right:0px;
+}
+
 #h2{
   font-size: 30px;
   font-family: 'RocknRoll One', sans-serif;
+}
+
+#h3{
+  font-size: 50px;
+  font-family: "M PLUS Rounded 1c";
+  text-align: center;
 }
 
 .word{
@@ -108,13 +119,6 @@ span.alert{
 #color2{
   color: #d36a2e;
   font-weight: bold;
-}
-
-#img2{
-  height: 270px;
-  width: 420px;
-  display: flex;
-  flex-direction: column;
 }
 
 #img3{
